@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="email.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title> Email Template Project </title>
+</head>
+<body>
+     <div class="container-fluid my-container"> 
+        <!-- <div class="row my-row"> -->
+            <!-- <div class="col-2 welcome"> -->
+                <!-- Row 1 Col 1: Welcome message -->
+                <!-- Welcome, Wincy! -->
+            <!-- </div> -->
+
+            <!-- <div class="col my-col"> -->
+                <!-- Row 1 Col 2: search bar -->
+                <!-- <div class="input-group"> -->
+                    <!-- <div class="form-outline"> -->
+                        
+                      <!-- <input type="search" placeholder="search for emails" > -->
+                      <!-- <i class="bi bi-search"></i> -->
+                      
+                    <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- <div class="col-5 my-col"> -->
+                <!-- Row 1 Col 3 -->
+            <!-- </div> -->
+        <!-- </div> -->
+
+        <!-- <div class="row my-row"> -->
+            <!-- <div class="col-2 my-col"> -->
+                <!-- Row 2 Col 1: Compose button -->
+                
+            <!-- </div> -->
+
+            <!-- <div class="col-3 my-col"> -->
+                <!-- Row 2 Col 2: Message 1 -->
+                <!-- <div class="msg-header">LinkedIn</div> <div class="time">2:45pm</div> -->
+                <!-- <br> -->
+                <!-- <p>You have a new connection request. </p> -->
+            <!-- </div> -->
+
+            
+            <!-- <div class="col-3 my-col"> -->
+                <!-- Row 2 Col 3 -->
+            <!-- </div> -->
+        <!-- </div> -->
+
+        <div class="row mainrow">
+            <div class="col-2 sidebar">
+                <!-- Row 3 Col 1: Sidebar -->
+                <div class="welcome-msg">
+                    <h6>Welcome, Wincy!</h6>
+                </div>
+                
+                <!-- <br> -->
+                <br>
+                <button type="button" class="btn btn-warning"> Compose </button>
+                <div class="sidebar-text">
+                <h5>Inbox (1)</h5>
+                <p>Tagged</p>
+                <p>Important</p>
+                <p>Sent Mail</p>
+                <p>Drafts</p>
+                <p>Trash</p>
+                </div>
+                
+            </div> <!--sidebar close-->
+            <!-- <div class="col my-col"> -->
+                <!-- Row 3 Col 2 -->
+                
+
+
+            <!-- </div> -->
+            <div class="col-3 preview">
+                <!-- Row 3 Col 3 -->
+                <div class="input-group">
+                    <div class="form-outline">
+                        
+                      <input type="search" placeholder="search for emails" >
+                      <i class="bi bi-search"></i>
+                      
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item active">
+                        <div class="msg-header">Motivation</div> <div class="time">3:45pm</div>
+                        <br>
+                        <p>Daily Motivational Quotes</p>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="msg-header">LinkedIn</div> <div class="time">1:42pm</div>
+                        <br>
+                        <p>You have a new connection request </p></li>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="msg-header">DoorDash</div> <div class="time">2/28/22</div>
+                        <br>
+                        <p>Order Confirmation from The Sandwich Spot </p></li>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="msg-header">Ken Wong</div> <div class="time">2/28/22</div>
+                        <br>
+                        <p>Fwd: Lunchbox by El Chino Grande</p></li>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="msg-header">Liza Pizzazo</div> <div class="time">2/27/22</div>
+                        <br>
+                        <p>Mandatory Safety Training for All Employees</p></li>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="msg-header">Yoshinoya</div> <div class="time">2/27/22</div>
+                        <br>
+                        <p>Refer a Friend and Get $2 Off Your Next Order!</p></li>
+                    </li>
+                  </ul>
+
+            </div> <!--sidebar col close-->
+            <div class="col my-col">
+                <div class="actions">
+                    <i class="bi bi-trash3-fill"></i>
+                    <i class="bi bi-reply-fill"></i>
+                    <i class="bi bi-three-dots"></i>
+                </div>
+                
+                <ul style="list-style:none;" class="sender">
+                    <li>To: wincy@pact.co</li>
+                    <li>From: email@motivation.com</li>
+                </ul>
+                <h5>Daily Motivational Quotes</h5>
+                <p>"Don't count the days, make the days count."</p>
+                <p>"You are the artist of your own life. Don't hand the paintbrush to anyone else."</p>
+                <p>"Push yourself, because no one else is going to do it for you."</p>
+                <br>
+                <br>
+                <br>
+ 
+                <div class="row reply-row">
+                    <textarea class="reply" placeholder="Reply to email"></textarea>
+                    <div class="reply-actions">
+                        <button type="button" class="btn btn-outline-success" id=reply-btn>Reply</button>
+                        <!-- <i class="bi bi-paperclip fa-10x"></i>  -->
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div> <!--row close-->
+  
+     </div> <!--container close-->
+</body>
+</html>

@@ -1,0 +1,102 @@
+
+
+.my-container{
+    border: 3px solid green;
+    height: 100vh;
+    width: 100vw;
+}
+
+.my-row{
+    border: 3px solid red;
+    /* height: 50%; */
+}
+
+.mainrow{
+    height: 100%;
+}
+
+
+
+.my-col{
+    border: 3px dotted blue;
+}
+
+.welcome{
+    background-color: rgb(139,137,140);
+    color: white;
+}
+
+.sidebar{
+    background-color: rgb(139,137,140);
+    color: white;
+}
+
+.msg-header{
+    display: flex;
+    display: inline;
+    float: left;
+}
+
+.time{
+    display: flex;
+    flex-wrap: nowrap;
+    display:inline;
+    float: right;
+}
+
+.sender{
+    color: grey;
+    padding-left: 0;
+}
+
+textarea{
+    height: 225px;
+    width: 525px;
+}
+
+.btn-warning{
+    margin: 5px;
+    color: white;
+    /* min-width: 100%; */
+
+}
+
+.welcome-msg{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.preview{
+    background-color: rgb(170,171,188);
+}
+
+#reply-btn{
+    /* display:flex; */
+    /* align-self: flex-end; */
+    width: 15%;
+
+    
+}
+
+
+.sidebar-text{
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.reply-actions{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.actions{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.reply-row{
+    display:flex;
+    align-items: flex-end;
+    border: 3px solid red;
+}
