@@ -1,25 +1,21 @@
+html,body{
+    height: 100%;
+}
 
 
 .my-container{
-    border: 3px solid green;
     height: 100vh;
     width: 100vw;
 }
 
-.my-row{
-    border: 3px solid red;
-    /* height: 50%; */
-}
 
-.mainrow{
+
+.main-row{
     height: 100%;
 }
 
 
 
-.my-col{
-    border: 3px dotted blue;
-}
 
 .welcome{
     background-color: rgb(139,137,140);
@@ -50,8 +46,8 @@
 }
 
 textarea{
-    height: 225px;
-    width: 525px;
+    height: 100%;
+    width: 100%;
 }
 
 .btn-warning{
@@ -62,41 +58,67 @@ textarea{
 }
 
 .welcome-msg{
+    /* display:flex; */
+    /* flex-wrap: nowrap; */
     margin-top: 10px;
     margin-left: 5px;
+    /* text-indent: 10px; */
+}
+
+.h6{
+text-indent: 5px;
 }
 
 .preview{
     background-color: rgb(170,171,188);
 }
 
-#reply-btn{
-    /* display:flex; */
-    /* align-self: flex-end; */
-    width: 15%;
+.list-group{
+    display:flex;
+    justify-content: flex-end;
 
-    
 }
-
 
 .sidebar-text{
     margin-left: 7px;
     margin-top: 5px;
 }
 
+.form-outline{
+    margin: 5px;
+}
+
 .reply-actions{
     display:flex;
     justify-content: flex-end;
-}
-
-.actions{
-    display:flex;
-    justify-content: flex-end;
-    margin-top: 5px;
+    align-self: flex-end;
 }
 
 .reply-row{
     display:flex;
     align-items: flex-end;
-    border: 3px solid red;
+    flex-grow:1;
 }
+
+.reply-col{
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.reply-box{
+    height: 200px;
+}
+
+.btn-outline-success{
+
+    margin-top: 5px;
+}
+
+.search{
+    display: flex;
+}
+
+
+

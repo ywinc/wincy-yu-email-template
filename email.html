@@ -11,55 +11,15 @@
 </head>
 <body>
      <div class="container-fluid my-container"> 
-        <!-- <div class="row my-row"> -->
-            <!-- <div class="col-2 welcome"> -->
-                <!-- Row 1 Col 1: Welcome message -->
-                <!-- Welcome, Wincy! -->
-            <!-- </div> -->
-
-            <!-- <div class="col my-col"> -->
-                <!-- Row 1 Col 2: search bar -->
-                <!-- <div class="input-group"> -->
-                    <!-- <div class="form-outline"> -->
-                        
-                      <!-- <input type="search" placeholder="search for emails" > -->
-                      <!-- <i class="bi bi-search"></i> -->
-                      
-                    <!-- </div> -->
-                <!-- </div> -->
-            <!-- </div> -->
-            <!-- <div class="col-5 my-col"> -->
-                <!-- Row 1 Col 3 -->
-            <!-- </div> -->
-        <!-- </div> -->
-
-        <!-- <div class="row my-row"> -->
-            <!-- <div class="col-2 my-col"> -->
-                <!-- Row 2 Col 1: Compose button -->
-                
-            <!-- </div> -->
-
-            <!-- <div class="col-3 my-col"> -->
-                <!-- Row 2 Col 2: Message 1 -->
-                <!-- <div class="msg-header">LinkedIn</div> <div class="time">2:45pm</div> -->
-                <!-- <br> -->
-                <!-- <p>You have a new connection request. </p> -->
-            <!-- </div> -->
-
-            
-            <!-- <div class="col-3 my-col"> -->
-                <!-- Row 2 Col 3 -->
-            <!-- </div> -->
-        <!-- </div> -->
 
         <div class="row mainrow">
-            <div class="col-2 sidebar">
+            <div class="col-md-2 col-sm-4 col-lg-4 sidebar">
                 <!-- Row 3 Col 1: Sidebar -->
                 <div class="welcome-msg">
-                    <h6>Welcome, Wincy!</h6>
+                    <!-- <i class="bi bi-person-circle"> </i> -->
+                    <h6>  Welcome, Wincy!</h6>
                 </div>
                 
-                <!-- <br> -->
                 <br>
                 <button type="button" class="btn btn-warning"> Compose </button>
                 <div class="sidebar-text">
@@ -72,13 +32,8 @@
                 </div>
                 
             </div> <!--sidebar close-->
-            <!-- <div class="col my-col"> -->
-                <!-- Row 3 Col 2 -->
-                
-
-
-            <!-- </div> -->
-            <div class="col-3 preview">
+            
+            <div class="col-md-3 col-sm-8 col-lg-8 preview">
                 <!-- Row 3 Col 3 -->
                 <div class="input-group">
                     <div class="form-outline">
@@ -123,7 +78,7 @@
 
             </div> <!--sidebar col close-->
             <div class="col my-col">
-                <div class="actions">
+                <div class="reply-actions">
                     <i class="bi bi-trash3-fill"></i>
                     <i class="bi bi-reply-fill"></i>
                     <i class="bi bi-three-dots"></i>
@@ -133,20 +88,22 @@
                     <li>To: wincy@pact.co</li>
                     <li>From: email@motivation.com</li>
                 </ul>
-                <h5>Daily Motivational Quotes</h5>
-                <p>"Don't count the days, make the days count."</p>
-                <p>"You are the artist of your own life. Don't hand the paintbrush to anyone else."</p>
-                <p>"Push yourself, because no one else is going to do it for you."</p>
-                <br>
-                <br>
-                <br>
+                <div class="main-email">
+                    <h5>Daily Motivational Quotes</h5>
+                    <p>"Don't count the days, make the days count."</p>
+                    <p>"You are the artist of your own life. Don't hand the paintbrush to anyone else."</p>
+                    <p>"Push yourself, because no one else is going to do it for you."</p>
+                    <br>
+                </div>
  
                 <div class="row reply-row">
-                    <textarea class="reply" placeholder="Reply to email"></textarea>
-                    <div class="reply-actions">
-                        <button type="button" class="btn btn-outline-success" id=reply-btn>Reply</button>
-                        <!-- <i class="bi bi-paperclip fa-10x"></i>  -->
-                    </div>
+                        <div class="col-12 reply-col">
+                            <textarea class="reply-box" placeholder="Reply to email"></textarea>
+
+                            <button type="button" class="btn btn-outline-success" id=reply-btn>Reply</button>
+   
+                        </div>
+
                     
                 </div>
             </div>
